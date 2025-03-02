@@ -1,0 +1,15 @@
+Attempting to build a Retreival Augmented Generation (RAG) based job application automation
+Chose to use Gemini API for the Large Language Model (LLM) part
+Also planning to learn Dockers with this project
+Installed PowerSHell
+    winget search Microsoft.PowerShell
+    winget install --id Microsoft.PowerShell --source winget
+Installed WSL (Windows Subsystem for Linux)
+    wsl --install
+    wsl
+    complete our user profile information (username & password only)
+
+
+UseCase for the components:
+RAG - answer questions to fill out the job application(s)
+Web Scrapping - fetch open job position related to set search criteria, along with application website & form queries

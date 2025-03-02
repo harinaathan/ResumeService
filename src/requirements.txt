@@ -1,0 +1,7 @@
+pandas
+openpyxl
+google-genai
+google-generativeai
+chromadb
+sentence-transformers
+python-dotenv
