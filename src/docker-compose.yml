@@ -1,0 +1,21 @@
+services:
+  app:
+    build: ./
+    env_file:
+      - .env.creds
+    ports:
+      - "8000:8000"
+    volumes:
+      - chromadb_data:/app/chroma_db
+    depends_on:
+      - chromadb
+  chromadb:
+    image: chromadb/chroma
+    env_file:
+      - .env.creds
+    ports:
+      - "8008:8008"
+    volumes:
+      - chromadb_data:/chroma/data
+volumes:
+  chromadb_data:
