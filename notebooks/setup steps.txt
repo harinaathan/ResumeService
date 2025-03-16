@@ -1,0 +1,13 @@
+1) clone repository from https://github.com/harinaathan/ResumeService.git
+2) create .env file in working directory(s) with GOOGLE_API_KEY value
+3) if required, install python3.xx-venv
+    linux: sudo apt install python3.12-venv
+4) create a virtual environment
+    linux: python3 -m venv .venv
+    windows: python -m venv .venv
+5) activate the virtual environment
+    linux: source .venv/bin/activate
+    windows: ???
+6) install requirements
+    linux: python3 -m pip install -r src/requirements.txt
+    windows: python -m pip install -r src/requirements.txt
