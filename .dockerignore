@@ -2,3 +2,6 @@
 Hari*
 .venv
 .chroma*
+__pycache__
+knowledgeBase
+sessionInfo
